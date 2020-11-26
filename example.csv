@@ -1,0 +1,14 @@
+# Base, Name, Cost, Period
+Survival, Water, 20, m
+Survival, Shelter, 400, m
+Survival, Electricity, 50, m
+Survival, Food, 15, d
+Communication, Internet, 30, m
+Communication, Telephone, 35, m
+Transportation, Car Gas, 5, d
+Grooming, Haircut, 15, m
+Services, Spotify, 7, m
+Services, Netflix, 10, m
+Maintenance, Car Wash, 15, m
+Hobbies, Skateboarding, 0, d
+Hobbies, Paint, 15, w

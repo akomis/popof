@@ -1,4 +1,4 @@
-*.csv
+t*.csv
 *.idea
 
 # Byte-compiled / optimized / DLL files
