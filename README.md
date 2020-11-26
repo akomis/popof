@@ -5,7 +5,6 @@ Priority Oriented Perspective On Finances
 A super simple in both philosophy and implementation python script that calculates finances based on a priority file of costs. Essentially the user has to categorize his costs and rank those categories in a csv file. The goal of popof is to be a modular calculator of costs based on their priority as each individual has priorities on spending money as well as that some costs are dependent on other costs and provide a useful perspective on ones finances. POPOF has 2 operation modes:
 - Goal: Calculate the amount of money it takes to fulfill all cost needs
 - Coverage: Calculate which costs can be satisfied based on an income amount
-<br>
 
 ## Example input csv file
 `# Base, Name, Cost, Period`  
