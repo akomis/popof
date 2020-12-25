@@ -78,9 +78,9 @@ def goalMode(costs, savings):
 		baseName = base[0].base
 		for c in base:
 			total += c.getMonthlyCost()
-		print("To satisfy base up to " + baseName + " you need to make " + str(total+savings) + "\n")
+		print("To satisfy base up to " + baseName + " you need to make " + "{0:.2f}".format(total+savings) + "\n")
 
-def priorityMode(costs, income):
+def coverageMode(costs, income):
 	budget = income
 
 	for base in costs:
@@ -90,10 +90,10 @@ def priorityMode(costs, income):
 				budget -= c.getMonthlyCost()
 			else:
 				print("Can't satisfy base " + baseName + " with " + c.name + " being the barrier")
-				print("Base " + baseName + " could be satisfied if it had a " + str(budget) + " monthly cost\n")
+				print("Base " + baseName + " could be satisfied if it had a " + "{0:.2f}".format(budget) + " monthly cost\n")
 				return
 
-		print("Can satisfy base up to " + baseName + " with " + str(budget) + " in savings\n")
+		print("Can satisfy base up to " + baseName + " with " + "{0:.2f}".format(budget) + " in savings\n")
 
 def main():
 	parser = argparse.ArgumentParser(description="POPOF: Priority Oriented Perspective On Finances")
@@ -139,7 +139,7 @@ def main():
 		goalMode(costs, args.savings)
 
 	if args.income is not None:
-		priorityMode(costs, args.income)
+		coverageMode(costs, args.income)
 
 
 if __name__ == "__main__":
