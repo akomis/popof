@@ -48,7 +48,7 @@ def validateRow(row, index):
 
 	# Check if price field is a positive number
 	try:
-		x = float(int(row[2]))
+		x = float(row[2])
 
 		if x < 0:
 			raise ValueError()
