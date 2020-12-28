@@ -25,7 +25,7 @@ A super simple in both philosophy and implementation python script that calculat
 In the above example the priority in descending order is Survival, Communication, Transportation, Grooming, Services, Maintenance, Hobbies and their respective costs in the respective order that are found in the file. A well defined costs file is considered one that costs are properly categorized and categories are properly defined (a cost shouldn't be qualified to belong to more than 1 category). The scripts provides the user with the ability to define a cost by a period d: daily, w: weekly or m: monthly for the results to be as accurate as possible. The results are monthly.
 
 ## Usage
-`python3 popof.py [OPTIONS]`
+`python3 popof.py -c COSTS_CSV_FILE [OPTIONS]`
 
 ### Options
 `-h, --help            				| Show this help message and exit`  
