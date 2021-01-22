@@ -32,7 +32,7 @@ In the above example the priority in descending order is Survival, Communication
 
 ### Options
 ```
--h, --help            				| Show this help message and exit
+-h, --help            			| Show this help message and exit
 -c COSTS, --costs COSTS			| Input csv file containing costs
 -s SAVINGS, --savings SAVINGS 		| Define goal for savings (Run GOAL mode)
 -i INCOME, --income INCOME 		| Define income (Run COVERAGE mode)
